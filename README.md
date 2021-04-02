@@ -15,6 +15,11 @@ There are few changes to be made in \src\main\resources\application.properties f
 spring.datasource.url=jdbc:mysql://localhost/{enter the name of DB to be used }
 spring.datasource.username={username credentials for your project}
 spring.datasource.password={ password for that username}
+
+#enter the email from which OTP will be sent
+spring.mail.username={email}
+#enter the app password you created for the respective email 
+spring.mail.password={app password} 
 ```
 
 Your app should be up and running on `localhost:8080`
