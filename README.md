@@ -1,5 +1,9 @@
 # Task-Manager
-Task Manager built on Spring Boot
+Task Manager built on Spring Boot.
+
+#Key Points of the Application
+ * Uses MySQL database.
+ * Implements 2FA using OTP.
 
 ## Run locally
 
